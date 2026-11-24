@@ -1,0 +1,17 @@
+{
+  "name": "theme-gallery",
+  "version": "0.1.0",
+  "description": "Create, share, browse and apply color themes for Claude, the way community themes work in a notes app.",
+  "author": { "name": "SlimSuperSignon" },
+  "license": "MIT",
+  "homepage": "https://github.com/SlimSuperSignon/theme-gallery",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "communityRepo": {
+      "type": "string",
+      "title": "Community repository",
+      "description": "The GitHub repository that holds the theme community, as owner/name. /themes community owner/name sets it too.",
+      "default": "SlimSuperSignon/claude-themes"
+    }
+  }
+}

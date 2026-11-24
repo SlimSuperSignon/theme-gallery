@@ -1,0 +1,12 @@
+{
+  "name": "theme-gallery",
+  "owner": { "name": "SlimSuperSignon" },
+  "metadata": { "description": "Theme Gallery: create, share and apply themes for Claude." },
+  "plugins": [
+    {
+      "name": "theme-gallery",
+      "source": "./",
+      "description": "Create, share, browse and apply themes for Claude, with a community gallery."
+    }
+  ]
+}
